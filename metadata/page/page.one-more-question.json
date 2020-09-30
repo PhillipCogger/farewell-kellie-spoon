@@ -1,0 +1,58 @@
+{
+  "_id": "page.one-more-question",
+  "_type": "page.singlequestion",
+  "actionType": "custom-5",
+  "components": [
+    {
+      "$source": "@ministryofjustice/fb-components",
+      "_id": "page.one-more-question--radios.auto_name__7",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "classes": "govuk-radios--inline",
+      "items": [
+        {
+          "_id": "page.one-more-question--radios.auto_name__7--radio.auto_value__16",
+          "_type": "radio",
+          "label": "The",
+          "value": "auto_value__16"
+        },
+        {
+          "_id": "page.one-more-question--radios.auto_name__7--radio.auto_value__17",
+          "_type": "radio",
+          "label": "rules",
+          "value": "auto_value__17"
+        },
+        {
+          "_id": "page.one-more-question--radios.auto_name__7--radio.auto_value__18",
+          "_type": "radio",
+          "label": "are",
+          "value": "auto_value__18"
+        },
+        {
+          "_id": "page.one-more-question--radios.auto_name__7--radio.auto_value__19",
+          "_type": "radio",
+          "label": "a",
+          "value": "auto_value__19"
+        },
+        {
+          "_id": "page.one-more-question--radios.auto_name__7--radio.auto_value__20",
+          "_type": "radio",
+          "label": "distant",
+          "value": "auto_value__20"
+        },
+        {
+          "_id": "page.one-more-question--radios.auto_name__7--radio.auto_value__21",
+          "_type": "radio",
+          "label": "memory",
+          "value": "auto_value__21"
+        }
+      ],
+      "legend": "Inline versus stacked radios? - discuss...",
+      "name": "auto_name__7",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "url": "one-more-question"
+}

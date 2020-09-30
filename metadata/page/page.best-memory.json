@@ -1,0 +1,15 @@
+{
+  "_id": "page.best-memory",
+  "_type": "page.singlequestion",
+  "actionType": "custom-4",
+  "components": [
+    {
+      "_id": "page.best-memory--textarea.auto_name__6",
+      "_type": "textarea",
+      "hint": "Maybe one of the countless times Coggsy redefined content design just by entering a room? Don't be afraid to say, we'll all understand.",
+      "label": "What's your fondest memory of working with team MOJO?",
+      "name": "auto_name__6"
+    }
+  ],
+  "url": "best-memory"
+}

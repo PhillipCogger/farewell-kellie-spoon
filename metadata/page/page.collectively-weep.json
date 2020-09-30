@@ -1,0 +1,41 @@
+{
+  "_id": "page.collectively-weep",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.collectively-weep--radios.auto_name__1",
+      "_type": "radios",
+      "errors": {
+        "required": {
+          "any": "Ain't no skipping - GOV innit!"
+        }
+      },
+      "hint": "One, two, three, and... go!",
+      "items": [
+        {
+          "_id": "page.collectively-weep--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "I'm done being sentimental",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.collectively-weep--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.collectively-weep--radios.auto_name__1--radio.auto_value__2--warning",
+            "_type": "warning",
+            "html": "5 more seconds then. Damn, I'm generous."
+          },
+          "label": "I need more time",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Begin your government farewell allowance of 10 seconds of collective weeping",
+      "name": "auto_name__1",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "url": "collectively-weep"
+}

@@ -1,0 +1,208 @@
+{
+  "_id": "page.cookies",
+  "_type": "page.content",
+  "components": [
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content",
+      "_type": "content",
+      "html": "This online form puts small biscuits known as cookies in a jar like a pension, so you can eat them when you're too old and can't taste anything.\r\n\r\nThe Design System has now decided it's a more than adequate replacement for all confirmation pages.\r\n\r\nOne more for the road...\r\n\r\nWe'll all miss you Captain Matheson\r\n\r\n"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--table--session",
+      "_type": "table",
+      "classes": "fb-table--cookie",
+      "firstCellIsHeader": true,
+      "head": [
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Name",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-half",
+          "html": "Purpose",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Expires",
+          "scope": "col"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "html": "_sessionId",
+            "scope": "row"
+          },
+          {
+            "html": "Saves your current progress in this computer and tracks inactivity periods"
+          },
+          {
+            "html": "After 60 minutes of inactivity or when you close your browser"
+          }
+        ]
+      ],
+      "show": false
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--table--ga",
+      "_type": "table",
+      "classes": "fb-table--cookie",
+      "firstCellIsHeader": true,
+      "head": [
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Name",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-half",
+          "html": "Purpose",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Expires",
+          "scope": "col"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "html": "_ga",
+            "scope": "row"
+          },
+          {
+            "html": "This helps us count how many people visit this online form"
+          },
+          {
+            "html": "2 years"
+          }
+        ],
+        [
+          {
+            "html": "_gid",
+            "scope": "row"
+          },
+          {
+            "html": "This helps us count how many people visit this online form"
+          },
+          {
+            "html": "24 hours"
+          }
+        ],
+        [
+          {
+            "html": "_gat",
+            "scope": "row"
+          },
+          {
+            "html": "Used to manage the rate at which page view requests are made"
+          },
+          {
+            "html": "10 minutes"
+          }
+        ]
+      ],
+      "show": false
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content--6",
+      "_type": "content",
+      "html": "### Google Analytics",
+      "show": false
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--table--utma",
+      "_type": "table",
+      "classes": "fb-table--cookie",
+      "firstCellIsHeader": true,
+      "head": [
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Name",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-half",
+          "html": "Purpose",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Expires",
+          "scope": "col"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "html": "_utma",
+            "scope": "row"
+          },
+          {
+            "html": "Like _ga, this lets us know how many of our visitors are new to this online form or to a certain page"
+          },
+          {
+            "html": "2 years"
+          }
+        ],
+        [
+          {
+            "html": "_utmb",
+            "scope": "row"
+          },
+          {
+            "html": "This works with _utmc to calculate the average length of time you spend on this online form"
+          },
+          {
+            "html": "30 minutes"
+          }
+        ],
+        [
+          {
+            "html": "_utmc",
+            "scope": "row"
+          },
+          {
+            "html": "This works with _utmb to calculate when you close your browser"
+          },
+          {
+            "html": "when you close your browser"
+          }
+        ],
+        [
+          {
+            "html": "_utmz",
+            "scope": "row"
+          },
+          {
+            "html": "This tells us how you reached this online form (for example from another website or a search engine)"
+          },
+          {
+            "html": "6 months"
+          }
+        ]
+      ],
+      "show": false
+    }
+  ],
+  "heading": "Who fancies a cookie?",
+  "url": "cookies"
+}

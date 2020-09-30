@@ -1,9 +1,26 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "**This is the main content section of your start page**\r\n\r\n[Edit this page](/edit) with content for your own service.\r\n\r\n## Adding more content\r\n\r\nYou can add multiple headings, links and paragraphs - all in this one content section.\r\n\r\nUse [markdown](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/markdown) to format headings, bullet lists and links.",
-  "heading": "This is your start page heading",
-  "lede": "This is your start page first paragraph. You can only have one paragraph here.",
-  "steps": [],
+  "actionType": "custom-2",
+  "body": "\r\n",
+  "components": [
+    {
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "This is the most awesomely user-centred form ever. It surpasses the need for:\r\n\r\n- discovering stuff\r\n- planning of any kind\r\n- testing with users - yawn right?\r\n- internal review beyond that of its creator\r\n- any lateral thought whatsoever - say what?"
+    }
+  ],
+  "heading": "Request permission to moonwalk to your next role",
+  "lede": "Only use this form if you reckon you can leave team MOJO in style, like on roller skates.",
+  "steps": [
+    "page.collectively-weep",
+    "page.who-would-you-take",
+    "page.check-answers",
+    "page.best-memory",
+    "page.one-more-question",
+    "page.type-ahead",
+    "page.final-words",
+    "page.cookies"
+  ],
   "url": "/"
 }

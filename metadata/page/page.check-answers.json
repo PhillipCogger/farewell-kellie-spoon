@@ -1,0 +1,11 @@
+{
+  "_id": "page.check-answers",
+  "_type": "page.summary",
+  "actionType": "custom-1",
+  "heading": "Randomly rescan your various selections",
+  "lede": "Sorry, being indulgent now. Nobody's going to let me land a check answers page this early in real life. Gotta enjoy how the rules of good UX are gathering dust while you complete this form.",
+  "sectionHeading": "The future of plain English",
+  "sendBody": "Hit that green button!",
+  "sendHeading": "Proceed",
+  "url": "random-answer-check"
+}

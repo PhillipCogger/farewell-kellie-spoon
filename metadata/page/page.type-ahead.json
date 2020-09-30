@@ -1,0 +1,43 @@
+{
+  "_id": "page.type-ahead",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.type-ahead--autocomplete.auto_name__8",
+      "_type": "autocomplete",
+      "hint": "Start by typing either Y or N. Some classic forced user behaviour here - might as well at this point. If you select yes, you'll pass to a page on which conditional logic has been applied back to this autocomplete component. That's basically experimental jazz.",
+      "items": [
+        {
+          "_id": "page.type-ahead--autocomplete.auto_name__8--option",
+          "_type": "option"
+        },
+        {
+          "_id": "page.type-ahead--autocomplete.auto_name__8--option--2",
+          "_type": "option"
+        },
+        {
+          "_id": "page.type-ahead--autocomplete.auto_name__8--option--3",
+          "_type": "option"
+        },
+        {
+          "_id": "page.type-ahead--autocomplete.auto_name__8--option--4",
+          "_type": "option",
+          "text": "Yes, one word",
+          "value": "Yes, one word"
+        },
+        {
+          "_id": "page.type-ahead--autocomplete.auto_name__8--option--5",
+          "_type": "option",
+          "text": "Not really",
+          "value": "Not really"
+        }
+      ],
+      "label": "Any final words?",
+      "name": "auto_name__8",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "url": "type-ahead"
+}

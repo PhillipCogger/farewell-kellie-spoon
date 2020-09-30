@@ -1,0 +1,122 @@
+{
+  "_id": "page.who-would-you-take",
+  "_type": "page.singlequestion",
+  "actionType": "custom-3",
+  "components": [
+    {
+      "_id": "page.who-would-you-take--radios.auto_name__2",
+      "_type": "radios",
+      "hint": "And don't say the devs - we already have a publishing app. Try all the options - it's fun.",
+      "items": [
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__4",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__4--radios.auto_name__4",
+            "_type": "radios",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__4--radios.auto_name__4--radio.auto_value__11",
+                "_type": "radio",
+                "label": "Yep",
+                "value": "auto_value__11"
+              }
+            ],
+            "legend": "Really now?",
+            "name": "auto_name__4"
+          },
+          "label": "Everyone",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__3",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__3--radios.auto_name__3",
+            "_type": "radios",
+            "items": [
+              {
+                "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__3--radios.auto_name__3--radio.auto_value__9",
+                "_type": "radio",
+                "conditionalComponent": {
+                  "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__3--radios.auto_name__3--radio.auto_value__9--content",
+                  "_type": "content",
+                  "html": "Select another option then..."
+                },
+                "label": "I guess so",
+                "value": "auto_value__9"
+              },
+              {
+                "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__3--radios.auto_name__3--radio.auto_value__10",
+                "_type": "radio",
+                "label": "No, I'm pretty sure",
+                "value": "auto_value__10"
+              }
+            ],
+            "legend": "Too early to say, surely?",
+            "name": "auto_name__3"
+          },
+          "label": "Fabien",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__5",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__5--textarea.auto_name__5",
+            "_type": "textarea",
+            "label": "Wise choice. Do elaborate...",
+            "name": "auto_name__5"
+          },
+          "label": "Coggsy",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__6",
+          "_type": "radio",
+          "label": "Delivering the goods (Siji)",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Mr Nash (Alex)",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Gemma Research",
+          "value": "auto_value__8"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__12",
+          "_type": "radio",
+          "label": "Code scholar 01.12387632 random numbers etc",
+          "value": "auto_value__12"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__13",
+          "_type": "radio",
+          "label": "The other one",
+          "value": "auto_value__13"
+        },
+        {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__14",
+          "_type": "radio",
+          "label": "Irina on product, but sometimes percussion",
+          "value": "auto_value__14"
+        }
+      ],
+      "legend": "If you could take one of us with you, who would it be?",
+      "name": "auto_name__2",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "url": "who-would-you-take"
+}
