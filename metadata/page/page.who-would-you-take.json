@@ -63,6 +63,12 @@
           "value": "auto_value__3"
         },
         {
+          "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__15",
+          "_type": "radio",
+          "label": "The Artist, formerly known as Architect, previously addressed as Matt",
+          "value": "auto_value__15"
+        },
+        {
           "_id": "page.who-would-you-take--radios.auto_name__2--radio.auto_value__5",
           "_type": "radio",
           "conditionalComponent": {
